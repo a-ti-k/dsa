@@ -13,14 +13,16 @@ def jobsceduling(arr,t):
             if result[j]==False:
                 result[j]=True
                 job[j]=arr[i][0]
-                break
+                break   
     print(job)
 
 if __name__=='__main__':
-    arr = [['a',2,10],
-            ['b',1,19],
-            ['c',2,27],
-            ['d',1,25],
-            ['e',3,15]]
+    arr =  [['a',1,3],
+            ['b',3,25],
+            ['c',2,1],
+            ['d',1,6],
+            ['e',2,30]]
+
     print("following is maximum profit sequance of job:")
+
     jobsceduling(arr,3)
