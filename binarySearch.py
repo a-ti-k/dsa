@@ -21,4 +21,4 @@ high=n-1
 
 find =int(input("need to find:"))
 
-print("array after sorting:",binarySearch(arr,find,low,high))
+print("found in the index:",binarySearch(arr,find,low,high))
