@@ -11,4 +11,4 @@ def linearSearch(arr,find):
 
 find =int(input("need to find:"))
 
-print("array after sorting:",linearSearch(arr,find))
+print("found in the index:",linearSearch(arr,find))
